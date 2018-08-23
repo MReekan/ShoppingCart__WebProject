@@ -1,0 +1,65 @@
+.menu1 
+{
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    float: left;
+
+}
+
+   .menu
+{
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    float: right;
+}
+
+.room-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #a3acaf;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.room-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.room-content a:hover 
+{
+	background-color: #f1f1f1;
+}
+
+.menu1:hover .room-content 
+{
+    display: block;
+}
+
+.menu1:hover .roombtn 
+{
+    background-color: rgb(128,128,128);
+}
+
+
+.menu:hover .room-content 
+{
+    display: block;
+}
+
+.menu:hover .roombtn 
+{
+    background-color: rgb(128,128,128);
+}
+.roombtn{
+    color: rgb(15,18,117);
+    font-size: 12px;
+}

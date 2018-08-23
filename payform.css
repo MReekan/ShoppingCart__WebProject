@@ -1,0 +1,83 @@
+html
+{
+    
+			background:url('image/cart.jpg') no-repeat center center fixed;
+			-webkit- background-size: cover;
+			-moz- background-size: cover;
+			-o- background-size: cover;
+			 background-size: cover;
+
+		
+}
+#card
+{
+    background-color: rgba(100,83,57,0.8);
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    margin:-60px auto;
+    margin-top: 0px;
+}
+
+#cardno input[type=text]
+{
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#cardno1 input[type=text]
+{
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#name input[type=text]
+{
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.logo 
+{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.weblogo 
+{
+    width: 35%;
+    border-radius: 5%;
+}
+
+.container 
+{
+    padding: 10px;
+}
+
+button 
+{
+    background-color: rgb(82,73,57);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+button:hover 
+{
+    opacity: 0.8;
+}

@@ -1,0 +1,158 @@
+
+ html{ 
+			background:url('image/back9.jpg') no-repeat center center fixed;
+			-webkit- background-size: cover;
+			-moz- background-size: cover;
+			-o- background-size: cover;
+			 background-size: cover;
+
+		}
+		
+
+ #container {
+	width: 45%;
+	height: 450px;
+	border: 1px solid black;
+	margin: 0 auto;
+	position: relative;
+
+
+}
+
+#container>img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+}
+
+#container>.btn {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	
+	background:blue;
+	color: white;
+	font-size: 20px;
+	top: 175px
+
+}
+#container>#btn1:hover{
+	box-shadow: 10px 0 20px 0 black;
+}
+#container>#btn2:hover{
+	box-shadow: -10px 0 20px 0 black;
+}
+
+ #container>#btn1{
+	position: relative;
+	float: left;
+
+}
+ #container>#btn2 {
+	position: relative;
+	float: right;
+
+}
+
+
+  	#contain{
+	  		border: 5px rgb(100,100,100) solid;
+	  		text-align: center;
+
+	  	}
+	  
+	  		
+        #mainpage {
+	  		font-size: 25px;
+
+	  	}
+        
+
+	  	#mainmenu{
+	  		background-color:blue;
+	  		height: 40px;
+	  	}
+	  		#mainmenu ul{
+	  		padding-top:13px;
+	  	}
+	  	#mainmenu ul li{
+	  		list-style: none;
+	  		display: inline;
+	  	}
+	  	#mainmenu ul li a{
+	  		text-decoration:none;
+	  		font-size: 20px;
+	  		color: yellow;
+	  	}
+	  	#mainmenu ul li a:hover{
+	  		text-decoration:none;
+	  		font-size: 20px;
+	  		color: black;
+	  	}
+
+	  	#foo{
+	  		font-size:100% ;
+	  		color: white;
+	  	}
+
+
+         /* Login  */
+
+  #center_login{
+	position: absolute;
+	top: 100px;
+	left:380px;
+	transform-translate(-50%,-50%);
+	background-color: rgb(100,100,200);
+       
+
+
+
+	}
+
+   #center_login h2{
+	text-align: center;
+	color: white;
+	font-size: 35px;
+       
+   }
+
+   #center_login input{
+   	display: block;
+	width: 300px;
+	height: 30px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2), 0px,1px,1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+	margin-left: 5px;
+
+   }
+
+   #center_login #regi {
+   	background: #55acee;
+   	font-size: 18px;
+   	text-align: center;
+   	vertical-align: middle;
+   	
+   }
+
+   #center_login #eye {
+   	background: blue;
+   margin-left: 240px;
+   
+   }
+   p {
+   	color: white;
+   	text-align: center;
+   	 margin-left: 70px;
+   }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Online Book Store</title>
+	<link rel="stylesheet" type="text/css" href="Admin.css" >
+</head>
+<body>
+<div id="contain">
+   <article id="mainpage">
+   	 <h1> <em> Online Book Store </em ></h1>
+   </article>
+
+    <div id="topmenu">
+   	<ul>
+   		<li> <a href= "Signin.php"                 > Sign in                     </a> </li>     &nbsp &nbsp
+   		<li> <a href= "Register.php"               >  Register                    </a> </li>    
+		
+   		
+   	</ul>
+   </div>   <br>
+
+   <nav id="mainmenu">
+   	<ul>
+	<li> <a href="ProductEntry.html"      > ProductEntry          </a> </li>     &nbsp &nbsp
+	<li> <a href="ProductDelete.html"     > ProductDelete          </a> </li>     &nbsp &nbsp
+	<li> <a href="VeiwOrders.html"        > VeiwOrders             </a> </li>     &nbsp &nbsp
+	<li> <a href="Logout.html"            > Logout                 </a> </li>
+   		
+   	</ul>
+   </nav>
+
+
+<div  id="container">
+	<img class="slide" src="a.jpg">
+	<img class="slide" src="f.jpg">
+	<img class="slide" src="e.gif">
+	<img class="slide" src="g.jpg">
+	<button class="btn"  onclick="plusIndex(-1)" id="btn1">  &#10093  </button>
+	<button class="btn"  onclick="plusIndex(1)" id="btn2">   &#10094   </button>
+
+</div>
+
+<script type="text/javascript">
+	var index=1;
+
+	function plusIndex(n) {
+		index=index+n;
+		showImage(index);
+	}
+
+	showImage(1);
+
+
+	function showImage(n) {
+		var i;
+		var x =document.getElementsByClassName("slide");
+		  if (n>x.length) {index=1;}
+		   if (n<1) {index=x.length;}
+		
+		for (var i = 0; i < x.length; i++) {
+			x[i].style.display="none";
+		}
+		x[index-1].style.display="block";
+	}
+
+	autoSlide();
+
+	function autoSlide()  {
+		var i;
+		var x =document.getElementsByClassName("slide");
+		  
+		
+		for (var i = 0; i < x.length; i++) {
+			x[i].style.display="none";
+		}
+		 if (index>x.length) {index=1;}
+		x[index-1].style.display="block";
+		index++;
+		setTimeout(autoSlide,2000);
+	}
+	 
+</script>
+
+
+   
+
+   <footer id="foo">
+	<marquee> 		<h2>Copy rights @reekanse.com </h2> </marquee>
+  </footer>
+</body>

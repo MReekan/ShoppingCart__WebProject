@@ -1,0 +1,30 @@
+
+    input, textarea {
+border:1px solid #666666;
+font-family:Verdana,Tahoma,Arial,Sans-Serif;
+font-size:1em;
+margin:0;
+padding:4px;
+background:#fff;
+}
+
+input:focus, input:hover,textarea:focus, textarea:hover{
+border: 1px solid #000;
+background:url(image/back2.gif) top right no-repeat;
+}
+
+label {
+margin:2px;
+}
+
+input {
+width:300px;
+}
+
+.button {
+margin:0 0 15px 0;
+background:url(image/back3.jpg);
+color:#000;
+font-weight:bold;
+width:310px;
+}

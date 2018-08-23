@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Online Book Store</title>
+	<link rel="stylesheet" type="text/css" href="MyProject.css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+
+<div id="contain">
+   <article id="mainpage">
+   	 <h1>Online Book Store</h1>
+   </article>
+
+    <div id="topmenu">
+   	<ul>
+   		<li> <a href="Sign in.html"                > Sign in                     </a> </li>     &nbsp &nbsp
+   		<li> <a href=" Register.html"              >  Register        </a> </li>    
+		
+   		
+   	</ul>
+   </div>   <br>
+
+   <nav id="mainmenu">
+   	<ul>
+   	<li> <a href="Home.html"          > Home           </a> </li>     &nbsp &nbsp
+   	<li> <a href="AboutUs.html"       > AboutUs        </a> </li>     &nbsp &nbsp
+		<li> <a href="NewProduct.html"    > NewProduct     </a> </li>     &nbsp &nbsp
+		<li> <a href="VeiwCart.html"      > VeiwCart       </a> </li>     &nbsp &nbsp
+		<li> <a href="MyAccount.html"     > MyAccount      </a> </li>
+		
+   		
+   	</ul>
+   </nav>
+
+   <aside id="sidebar">
+   <ul>
+   <li class="back">Categaries</li>  <br>
+        <ul>
+        	
+        	<li><a href="Novel.html"      >Novel      </a></li> 
+        	<li><a href="It.html"         >It    </a></li> 
+        	<li><a href="Technology.html" >Technology</a></li> 
+        	<li><a href="Horror.html"      >Horror       </a></li> 
+        	
+        </ul>
+        <br>
+   <li class="back"> BestSellars </li>  <br>
+        <ul>
+        	
+        	<li><a href="Kalmunai.html"         >Kalmunai    </a></li> 
+        	<li><a href="Pottuvil.html"         >Pottuvil    </a></li> 
+        	<li><a href="Ampara.html"           >Ampara      </a></li> 
+        	<li><a href="Kilinochi.html"        >Kilinochi   </a></li> 
+        	
+        </ul>
+        <br>
+   <li class="back">Authors </li>	  <br>
+         <ul>
+        	
+        	<li><a href="Sharmilan.html"         >Sharmilan    </a></li> 
+        	<li><a href="Reekan.html"         >Reekan    </a></li> 
+        	<li><a href="Vipisanan.html"           >Vipisanan      </a></li> 
+        	<li><a href="Karthika.html"        >Karthika   </a></li> 
+        	<li><a href="Niroshan.html"        >Niroshan   </a></li> 
+        	<li><a href="Pavithran.html"        >Pavithran   </a></li> 
+        	
+        </ul>
+   	
+
+   	</ul>
+   </aside>
+
+   <aside id="sidebar2">
+   <ul>
+
+   <li class="back">Quick Find</li>  <br>
+       <input type="search" placeholder="Type here" >
+         <p>Use keywords to find the <br>
+         Product you are looking for</p>
+   <li class="back">Important Links</li>  <br>
+        <ul>
+        	<li><a href="reekanse.com"      >reekanse     </a></li> 
+        	<li><a href="AboutUs.html"      >AboutUs      </a></li> 
+        	<li><a href="CantactUs.html"    >CantactUs    </a></li> 
+        	<li><a href="PrivacyNotice.html">PrivacyNotice</a></li> 
+        	<li><a href="SeeMap.html"       >SeeMap       </a></li> 
+        	
+        </ul>
+        <br>
+   <li class="back"> Informations </li>  <br>
+        <ul>
+        	<li><a href="return.html"        >Return     </a></li> 
+        	<li><a href="PrivacyNotice.html">PrivacyNotice</a></li> 
+        	<li><a href="SeeMap.html"       >SeeMap       </a></li> 
+        </ul>
+        <br>
+   <li class="back">Tell A Freind </li>	  <br>
+        
+        <input type="text" name="message"> Message
+        <p>Tell someone you know <br>
+          about this product</p>
+   	
+
+   	</ul>
+   </aside>
+
+
+
+   
+
+   
+	
+</div>   <br>
+      <div  id="welcome">
+      	  <p><h2> <em>Hello!</em> Welcome to WebBookShop</h2></p>
+      </div>
+     
+
+<div  id="container">
+	<img class="slide" src="a.jpg">
+	<img class="slide" src="b.jpg">
+	<img class="slide" src="e.gif">
+	<img class="slide" src="d.jpg">
+	<button class="btn"  onclick="plusIndex(-1)" id="btn1">  &#10093  </button>
+	<button class="btn"  onclick="plusIndex(1)" id="btn2">   &#10094   </button>
+
+</div>
+
+<div class="jumbotron">
+  <p>
+    <a href="#" class="btn btn-default btn-lg"  role="button"> More Info</a>
+    <button  type="submit" class="btn btn-danger" role="button"> Button</button>
+    <input type="button" value="Info" class="btn btn-info" >
+
+    <button  type="submit" class="btn-primary btn-sm" > primary</button>
+    <button  type="submit" class="btn btn-success btn-xs" > success</button>
+    <button  type="submit" class="btn btn-warning btn-lg" > warning</button>
+    <button  type="submit" class="btn btn-link btn-lg" > link</button>
+  </p>
+</div>
+
+<footer id="foo">
+	<marquee> 		<h2>Copy write @reekanse.com </h2> </marquee>
+</footer>
+
+
+</body>
+
+<script type="text/javascript">
+	var index=1;
+
+	function plusIndex(n) {
+		index=index+n;
+		showImage(index);
+	}
+
+	showImage(1);
+
+
+	function showImage(n) {
+		var i;
+		var x =document.getElementsByClassName("slide");
+		  if (n>x.length) {index=1;}
+		   if (n<1) {index=x.length;}
+		
+		for (var i = 0; i < x.length; i++) {
+			x[i].style.display="none";
+		}
+		x[index-1].style.display="block";
+	}
+
+	autoSlide();
+
+	function autoSlide()  {
+		var i;
+		var x =document.getElementsByClassName("slide");
+		  
+		
+		for (var i = 0; i < x.length; i++) {
+			x[i].style.display="none";
+		}
+		 if (index>x.length) {index=1;}
+		x[index-1].style.display="block";
+		index++;
+		setTimeout(autoSlide,2000);
+	}
+	 
+</script>
+</html>

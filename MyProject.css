@@ -1,0 +1,389 @@
+ 
+ html{ 
+			background:url('image/7.jpg') no-repeat center center fixed;
+			-webkit- background-size: cover;
+			-moz- background-size: cover;
+			-o- background-size: cover;
+			 background-size: cover;
+
+		}
+		
+
+ #container {
+	width: 30%;
+	height: 250px;
+	border: 1px solid black;
+	margin: 0 auto;
+	position: relative;
+
+
+}
+
+#container>img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+}
+
+#container>.btn {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	
+	background:blue;
+	color: white;
+	font-size: 20px;
+	top: 100px
+
+}
+#container>#btn1:hover{
+	box-shadow: 10px 0 20px 0 black;
+}
+#container>#btn2:hover{
+	box-shadow: -10px 0 20px 0 black;
+}
+ #container>#btn2 {
+	position: relative;
+	float: right;
+
+}
+
+
+  	#contain{
+	  		border: 5px rgb(20,50,80) solid;
+            margin-top: -110px;
+	  		text-align: center;
+
+	  	}
+
+
+	  	#sidebar{
+	  		
+	  		background-color: rgb(20,50,80);
+	  		width: 300px;
+	  		height: 600px;
+	  		float: left;
+	  		background-size: 50px;
+	  		
+	  		
+	  
+
+	  	}
+
+	  		#sidebar2{
+
+	  		background-color: rgb(20,50,80);
+	  		width: 300px;
+	  		height: 600px;
+	  		float: right;
+	  		background-size: 50px;
+	  		
+
+
+
+	  
+
+	  	}
+
+
+	  	#sidebar ul li a{
+	  		text-decoration: none;
+	  		text-align: left;
+	  		color: white;
+	  		
+	  }
+
+	  #sidebar ul li {
+	  		list-style: none;
+	  		
+	  }
+	  		
+	  
+
+	  	#sidebar2 ul li a{
+	  		text-decoration: none;
+	  		text-align: left;
+	  		color: white;
+
+	  		
+	  	}
+         #sidebar2 ul li {
+	  		list-style: none;
+	  		color: white;
+	  		text-decoration: none;
+
+	  }
+
+
+
+	  	.back{
+	  		list-style: none;
+	  		
+	  		background-color:rgb(100,100,100);
+	  		font-size: 25px;
+	  			background-size:100%;
+                color: white;
+
+	  	}
+
+	  	.back ul li{
+	  		position: absolute;
+
+	  		text-decoration: none;
+            color: white;
+
+	  	}
+
+	  	#ba ul li{
+	  		text-align: left;
+
+	  	}
+
+
+
+	  	.back ul{
+	  		position: absolute;
+
+	  		text-align: left;
+            color: white;
+
+	  	}
+
+
+
+
+	 a{
+	 	font-size: 18px;
+
+	 } 		
+
+        
+        	#mainpage {
+	  		
+            margin-top: -50px;
+
+	  	}
+        
+
+	  		#topmenu ul{
+	  		padding-top:-15px;
+	  		padding-left: 15px;
+	  		padding-bottom: 15px
+
+	  	}
+	  	#topmenu ul li{
+	  		list-style: none;
+	  		display: inline;
+	  		text-align: center;
+	  	}#topmenu{
+	  		 background-color: rgb(150,100,200);
+	  		height: 45px;
+	  		float: right;
+
+	  	}
+	  	#topmenu ul li a{
+	  		text-decoration:none;
+	  		font-size: 20px;
+	  		color: rgb(30,30,30);
+	  	}
+	  		#topmenu ul li a:hover{
+	  		text-decoration:none;
+	  		font-size: 20px;
+	  		color: white;
+	  	}
+	  	  
+	  	
+
+
+	  	#welcome{
+	  		 
+	  	 text-align: center;
+	  	 color: white;
+	  	}
+
+	  	#head{
+	  		margin-top: 115px;
+	  	}
+
+
+
+
+	  	#mainmenu{
+	  		background-color:#02104F;
+	  		height: 40px;
+	  		margin-top: -100px;
+	  	}
+	  		#mainmenu ul{
+	  		padding-top:13px;
+	  	}
+	  	#mainmenu ul li{
+	  		list-style: none;
+	  		display: inline;
+	  	}
+	  	#mainmenu ul li a{
+	  		text-decoration:none;
+	  		font-size: 20px;
+	  		color: yellow;
+	  	}
+	  	#mainmenu ul li a:hover{
+	  		text-decoration:none;
+	  		font-size: 20px;
+	  		color: white;
+	  	}
+
+	  	#foo{
+	  		font-size:100% ;
+	  		color: white;
+	  	}
+         
+
+         /* sign in */
+     
+
+
+  #center_form{
+	position: absolute;
+	top: 100px;
+	left:360px;
+	transform-translate(-50%,-50%);
+	background-color: rgb(100,100,200);
+
+
+
+	}
+
+   #center_form h2{
+	text-align: center;
+	color: white;
+	font-size: 35px;
+   }
+
+   #center_form input{
+   	display: block;
+	width: 300px;
+	height: 30px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2), 0px,1px,1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+	margin-left: 5px;
+
+   }
+
+   #center_form #regi {
+   	background: #55acee;
+   	font-size: 18px;
+   	text-align: center;
+   	vertical-align: middle;
+   	
+   }
+
+   #center_form #eye {
+   	background: blue;
+   margin-left: 200px;
+   
+   }
+   p {
+   	color: white;
+   	text-align: center;
+   	 margin-left: 70px;
+   }
+      
+       /* Register */
+
+       #center_register{
+	position: absolute;
+	top: 100px;
+	left:360px;
+	transform-translate(-50%,-50%);
+	background-color: rgb(100,100,200);
+
+
+	}
+  
+
+    #center_register h2{
+	text-align: center;
+	color: white;
+	font-size: 35px;
+   }
+
+    #center_register input{
+   	display: block;
+	width: 300px;
+	height: 30px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	background: rgba(0,0,0,0.3);
+	outline: none;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	box-shadow: inset 0px -5px 45px rgba(100,100,100,0.2), 0px,1px,1px rgba(255,255,255,0.2);
+	margin-bottom: 10px;
+	margin-left: 10px;
+
+   }
+
+     #center_register #regi {
+   	background: #55acee;
+   	font-size: 18px;
+   	text-align: center;
+   	vertical-align: middle;
+   	
+   }
+
+   #center_register #eye {
+   	background: blue;
+    margin-left: 200px;
+
+
+   
+   }
+   #eye{
+   	margin-left: 500px;
+   }
+
+
+       /* Front image */
+
+
+ /* 
+        table,tr,td{
+  	text-align: center;
+  	padding: 40px;
+  	border: 1px  white;
+  	background-color:#0881A3;
+  
+
+
+  } 
+
+  table{
+  	margin: 0 auto 0 auto;
+  }          */
+
+  #change{
+  	float: left;
+  	height: 330px;
+  	width: 330px;
+  	padding: 10px;
+  	margin: 50px;
+  	border:2px solid black;
+  	background-color: #0881A3;
+  
+
+
+  }
+            
+
